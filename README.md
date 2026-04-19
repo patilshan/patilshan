@@ -19,11 +19,11 @@
 
 ## About Me
 
-Data scientist and analytics engineer with hands-on experience in **machine learning**, **operations research**, **cloud data engineering**, and **energy-sector analytics**. I build models and pipelines that turn messy, real-world data into actionable decisions — from optimizing dining hall schedules to detecting solar panel faults to measuring ad campaign causality.
+Data scientist and analytics engineer with hands-on experience in **machine learning**, **operations research**, **cloud data engineering**, **simulation**, and **energy-sector analytics**. I build models, simulations, and pipelines that turn messy, real-world data into actionable decisions — from optimizing warehouse logistics to detecting solar panel faults to measuring ad campaign causality.
 
 - 🎓 UW Madison — Wisconsin School of Business
 - 🔭 Currently exploring: cloud-scale data pipelines, causal inference, and renewable energy analytics
-- 🌱 Domain depth: solar & wind energy, transportation, digital advertising, operations
+- 🌱 Domain depth: solar & wind energy, warehouse automation, transportation, digital advertising
 - ⚡ Fun fact: Built a scheduling optimizer that saved $650K+ for a university dining center
 
 ---
@@ -44,6 +44,10 @@ Data scientist and analytics engineer with hands-on experience in **machine lear
   <img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery"/>
   <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt"/>
   <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Looker Studio"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/FlexSim-005DA6?style=for-the-badge" alt="FlexSim"/>
+  <img src="https://img.shields.io/badge/SolidWorks-FF0000?style=for-the-badge&logo=dassaultsystemes&logoColor=white" alt="SolidWorks"/>
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
@@ -115,6 +119,17 @@ Data scientist and analytics engineer with hands-on experience in **machine lear
 |---|---|
 | **Stack** | Python · BigQuery · dbt · Looker Studio · GCP |
 | **Highlights** | End-to-end cloud pipeline, 42.8% delay rate analysis, 3.63 min avg in-flight recovery, interactive Looker dashboard |
+
+---
+
+### 🏭 [Inventory Optimization & Warehouse Automation](https://github.com/patilshan/inventory-optimization-automation)
+
+> End-to-end inventory system combining Power BI dashboards, FlexSim warehouse simulation, an autonomous robot prototype (Arduino + SolidWorks), and shipping route optimization with Pyomo.
+
+| | |
+|---|---|
+| **Stack** | Python · Pyomo · FlexSim · Power BI · SolidWorks · Arduino · Google Maps API |
+| **Highlights** | 303 SKUs managed, warehouse bottleneck identified (Queue2 WIP: 25.32), TSP route optimizer, line-following robot with full CAD drawings |
 
 ---
 
