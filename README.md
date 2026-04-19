@@ -8,15 +8,23 @@
   <img src="https://komarev.com/ghpvc/?username=patilshan&style=flat-square&color=1a6b3c" alt="Profile views"/>
 </p>
 
+<!-- Uncomment and fill in your details:
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+-->
+
 ---
 
 ## About Me
 
-Data scientist and analytics engineer with hands-on experience in **machine learning**, **operations research**, and **energy-sector analytics**. I build models that turn messy, real-world data into actionable decisions — from optimizing facility schedules to forecasting renewable energy output. I enjoy working at the intersection of statistical rigor and domain impact.
+Data scientist and analytics engineer with hands-on experience in **machine learning**, **operations research**, **cloud data engineering**, and **energy-sector analytics**. I build models and pipelines that turn messy, real-world data into actionable decisions — from optimizing dining hall schedules to detecting solar panel faults to measuring ad campaign causality.
 
-- 🔭 Currently exploring: cloud-scale data pipelines and causal inference methods
-- 🌱 Domain depth: renewable energy (solar PV, wind), transportation, and digital advertising
-- ⚡ Fun fact: I've competed in Kaggle's Spaceship Titanic challenge and analyzed ad-spend causality for RocketFuel
+- 🎓 UW Madison — Wisconsin School of Business
+- 🔭 Currently exploring: cloud-scale data pipelines, causal inference, and renewable energy analytics
+- 🌱 Domain depth: solar & wind energy, transportation, digital advertising, operations
+- ⚡ Fun fact: Built a scheduling optimizer that saved $650K+ for a university dining center
 
 ---
 
@@ -24,115 +32,89 @@ Data scientist and analytics engineer with hands-on experience in **machine lear
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib"/>
-  <img src="https://img.shields.io/badge/Seaborn-444876?style=for-the-badge" alt="Seaborn"/>
   <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"/>
+  <img src="https://img.shields.io/badge/Pyomo-4B8BBE?style=for-the-badge" alt="Pyomo"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly"/>
+  <img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery"/>
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt"/>
+  <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Looker Studio"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </p>
 
 ---
 
 ## Featured Projects
 
-### ☀️ Solar PV System Performance Analysis
+### ☀️ [Solar PV System Performance Analysis](https://github.com/patilshan/solar-pv-performance-analysis)
 
-> Analyzed real-world photovoltaic output data to identify degradation patterns, seasonal trends, and performance benchmarks for solar installations.
+> End-to-end diagnostic framework for 3 rooftop PV systems at Andre Agassi Preparatory Academy (Las Vegas), detecting inverter faults, shading, and sensor anomalies using NREL PVDAQ data.
 
 | | |
 |---|---|
-| **Stack** | Python · Pandas · Matplotlib · SciPy |
-| **Highlights** | Time-series decomposition, capacity-factor modeling, data-driven maintenance recommendations |
-| **Link** | [Solar_PV_System_Performance_Analysis_Project.ipynb](https://github.com/patilshan/Projects/blob/main/Solar_PV_System_Performance_Analysis_Project.ipynb) |
+| **Stack** | Python · Pandas · Plotly · Matplotlib · Google Colab |
+| **Highlights** | 7 automated diagnostic flags, peer-comparison anomaly detection, 7,100 sensor anomalies identified in System 1276 |
 
 ---
 
-### 🌬️ Wind Energy Assessment
+### 🌬️ [Wind Energy Assessment](https://github.com/patilshan/wind-energy-assessment)
 
-> Built a site-suitability and energy-yield assessment framework using meteorological data to evaluate wind-farm viability.
+> Assessing wind resource potential at the Lone Star Wind Farm (Abilene, TX) using NREL data, Weibull fitting, and turbine power curve modeling for a GAMESA G87-2.0 MW turbine.
 
 | | |
 |---|---|
-| **Stack** | Python · NumPy · Pandas · Statistical Modeling |
-| **Highlights** | Weibull distribution fitting, wind-rose analysis, annual energy production estimation |
-| **Link** | [Wind_Assessment.ipynb](https://github.com/patilshan/Projects/blob/main/Wind_Assessment.ipynb) |
+| **Stack** | Python · SciPy · NumPy · Pandas · Matplotlib |
+| **Highlights** | Weibull k=2.92, AEP of 8,331 MWh, 64.95% capacity factor, air-density-adjusted power output |
 
 ---
 
-### 📅 Optimizing Scheduling (Gordon)
+### 📅 [Scheduling Optimization — Gordon Dining Center](https://github.com/patilshan/scheduling-optimization-gordon)
 
-> Applied operations-research techniques to optimize staff/resource scheduling for a real facility, reducing cost and improving coverage.
+> Optimizing weekly shift scheduling for 249 student employees at UW Madison's Gordon Dining Center using Pyomo linear programming, replacing a manual process.
 
 | | |
 |---|---|
-| **Stack** | Python · Linear Programming · Optimization (PuLP / OR-Tools) |
-| **Highlights** | Constraint modeling, optimal shift allocation, exported schedule as actionable PDF deliverable |
-| **Link** | [Optimizing_Scheduling_Gordon.ipynb](https://github.com/patilshan/Projects/blob/main/Optimizing_Scheduling_Gordon.ipynb) |
+| **Stack** | Python · Pyomo · Pandas · GLPK Solver |
+| **Highlights** | Real operational data, $650K+ estimated savings, constraint-based optimization with fair workload distribution |
 
 ---
 
-### ☁️ Cloud Analytics Project
+### 🎯 [RocketFuel — Ad Effectiveness & Causal Inference](https://github.com/patilshan/rocketfuel-causal-inference)
 
-> Performed cloud-based data analysis exploring scalable computing workflows for analytical workloads.
+> Measuring the true causal impact of digital ad exposure on handbag purchase conversions using a randomized experiment with 588K+ users.
 
 | | |
 |---|---|
-| **Stack** | Python · Jupyter · Cloud Services |
-| **Highlights** | Cloud-native data processing, exploratory analysis at scale |
-| **Link** | [Cloud Project.ipynb](https://github.com/patilshan/Projects/blob/main/Cloud%20Project.ipynb) |
+| **Stack** | R · dplyr · ggplot2 · lmtest · sandwich |
+| **Highlights** | ATE of +1pp (p<0.001), HC3 robust regression, decile subgroup analysis showing effect concentrates in top 20% exposure |
 
 ---
 
-### 🚀 Spaceship Titanic (Kaggle)
+### 🚀 [Spaceship Titanic — Kaggle Competition](https://github.com/patilshan/spaceship-titanic-kaggle)
 
-> Competed in Kaggle's Spaceship Titanic classification challenge — predicting which passengers were transported to an alternate dimension.
+> Predicting which passengers were transported to an alternate dimension — 82.2% accuracy with Random Forest, featuring multi-stage smart imputation.
 
 | | |
 |---|---|
-| **Stack** | Python · scikit-learn · Feature Engineering · Classification |
-| **Highlights** | End-to-end ML pipeline: EDA → feature engineering → model selection → submission |
-| **Link** | [Spaceship Titanic.pdf](https://github.com/patilshan/Projects/blob/main/Spaceship%20Titanic.pdf) |
+| **Stack** | Python · scikit-learn · XGBoost · Pandas · Seaborn |
+| **Highlights** | 4 models compared (LR, KNN, GBM, RF), group-based imputation recovered 50% of missing data, cabin feature engineering |
 
 ---
 
-### 🎯 RocketFuel — Ad Effectiveness & Causal Inference
+### ✈️ [Southwest Airlines Flight Delay Analytics](https://github.com/patilshan/southwest-flight-delay-analytics)
 
-> Measured the true causal impact of digital ad exposure on conversions using experimental design and statistical testing.
-
-| | |
-|---|---|
-| **Stack** | Python · A/B Testing · Causal Inference · Hypothesis Testing |
-| **Highlights** | Treatment vs. control analysis, incremental lift estimation, ROI quantification |
-| **Link** | [Rocketfuel.pdf](https://github.com/patilshan/Projects/blob/main/Rocketfuel.pdf) |
-
----
-
-### ✈️ Flights Analytics
-
-> Explored and visualized large-scale flight operations data to surface delay patterns, route performance, and carrier benchmarks.
+> Cloud-based analytics pipeline analyzing Southwest's delay patterns vs. industry using BigQuery, dbt, Python, and Looker Studio dashboards.
 
 | | |
 |---|---|
-| **Stack** | Python · Pandas · Data Visualization |
-| **Highlights** | Delay root-cause analysis, carrier/route comparison, actionable visual storytelling |
-| **Link** | [flights_project.pdf](https://github.com/patilshan/Projects/blob/main/flights_project.pdf) |
-
----
-
-### 🌌 Space-Time Anomaly Detection
-
-> Developed anomaly-detection methods applied to spatiotemporal datasets, flagging unusual patterns across geography and time.
-
-| | |
-|---|---|
-| **Stack** | Python · Statistical Anomaly Detection · Geospatial Analysis |
-| **Highlights** | Spatiotemporal feature engineering, outlier scoring, visual anomaly maps |
-| **Link** | [space_time_anomaly.ipynb](https://github.com/patilshan/Projects/blob/main/space_time_anomaly.ipynb) |
+| **Stack** | Python · BigQuery · dbt · Looker Studio · GCP |
+| **Highlights** | End-to-end cloud pipeline, 42.8% delay rate analysis, 3.63 min avg in-flight recovery, interactive Looker dashboard |
 
 ---
 
